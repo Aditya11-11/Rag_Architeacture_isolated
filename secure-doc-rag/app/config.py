@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    GEMINI_API_KEY: str
+    GEMINI_API_KEY: str = ""
     GEMINI_LLM_MODEL: str = "gemini-1.5-flash"
     GEMINI_EMBEDDING_MODEL: str = "models/text-embedding-004"
     CHROMA_PERSIST_DIR: str = "./data/chroma_db"

@@ -1,3 +1,14 @@
+---
+title: Secure Doc RAG
+emoji: 🛡️
+colorFrom: indigo
+colorTo: blue
+sdk: gradio
+sdk_version: 4.29.0
+app_file: gradio_app.py
+pinned: false
+---
+
 # Secure Document Query System (Secure Doc RAG)
 
 A production-grade, retrieval-augmented generation (RAG) system built with **FastAPI**, **ChromaDB**, and the **Google Gemini API**. This application is designed for enterprise environments where data security, multi-tenant isolation, and privacy compliance are top priorities.
